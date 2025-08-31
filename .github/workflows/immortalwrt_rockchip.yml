@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/LubanCat/LubanCatWrt
-  REPO_BRANCH: v24.10
+  REPO_URL: https://github.com/xhybb/immortalwrt
+  REPO_BRANCH: openwrt-24.10
   CONFIG_FILE: configs/lede/full.config
   DIY_P1_SH: immortalwrt/diy-part1.sh
   DIY_P2_SH: immortalwrt/diy-part2.sh
